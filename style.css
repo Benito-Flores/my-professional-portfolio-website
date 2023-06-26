@@ -333,4 +333,8 @@ svg {
     font-size: .9rem;
   }
 
+  .recent-projects-widget-title {
+    margin-top: -.25em;
+  }
+
 }
