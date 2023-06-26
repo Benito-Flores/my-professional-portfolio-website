@@ -11,6 +11,7 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #F7FAFC;
+  line-height: 1.6;
 }
 
 header,
@@ -21,7 +22,7 @@ footer {
 
 h2,
 h3 {
-  font-family: serif;
+  font-family: 'Ubuntu', sans-serif;;
   color: #143774;
 }
 
@@ -71,6 +72,13 @@ svg {
 }
 
 .strong-text {
+  font-weight: bold;
+}
+
+.header-links,
+.article-link {
+  text-transform: uppercase;
+  letter-spacing: 2px;
   font-weight: bold;
 }
 
@@ -257,7 +265,7 @@ svg {
 ============ media queries ============
 */
 
-@media (min-width: 680px) {
+@media (min-width: 814px) {
 
 /* -- header */
 
@@ -287,7 +295,7 @@ svg {
   }
 
   .main-container {
-    width: 73%;
+    width: 70%;
   }
 
   .recent-article {
@@ -300,7 +308,7 @@ svg {
   }
 
   .side-bar-container {
-    width: 23%;
+    width: 26%;
   }
   
   .side-bar-widget-container-one,
