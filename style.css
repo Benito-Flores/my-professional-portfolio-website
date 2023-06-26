@@ -307,6 +307,7 @@ svg {
     /* -- img container --*/
 
   .img-container {
+    display: ;
     background-image: url(./img/background-photo.png);
     background-position: center;
     background-size: cover;
@@ -315,6 +316,7 @@ svg {
   }
   
   .title {
+    display: ;
     text-align: center;
     padding: 5em 0;
     color: rgba(255, 255, 255, 0.95);
