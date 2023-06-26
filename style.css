@@ -155,6 +155,16 @@ svg {
 ============ primary ============
 */
 
+  /* -- img container --*/
+
+  .img-container {
+    display: none;
+  }
+  
+  .title {
+    display: none;
+  }
+
   /* -- main -- */
 
 .primary-container {
