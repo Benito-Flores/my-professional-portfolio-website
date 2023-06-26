@@ -155,16 +155,6 @@ svg {
 ============ primary ============
 */
 
-  /* -- img container --*/
-
-  .img-container {
-    display: none;
-  }
-  
-  .title {
-    display: none;
-  }
-
   /* -- main -- */
 
 .primary-container {
@@ -374,4 +364,16 @@ svg {
     margin-top: -.25em;
   }
 
+}
+
+@media (max-width: 814) {
+    /* -- img container --*/
+
+  .img-container {
+    display: none;
+  }
+  
+  .title {
+    display: none;
+  }
 }
