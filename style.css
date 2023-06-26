@@ -155,30 +155,6 @@ svg {
 ============ primary ============
 */
 
-  /* -- img container --*/
-
-  .img-container {
-    background-image: url(./img/background-photo.png);
-    background-position: center;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
-  }
-  
-  .title {
-    text-align: center;
-    padding: 5em 0;
-    color: rgba(255, 255, 255, 0.95);
-    font-family: sans-serif;
-    font-weight: 500;
-  }  
-
-  .button {
-    border-radius: 2px;
-    cursor: pointer;
-    padding: 2em 4.5em;
-  }
-
   /* -- main -- */
 
 .primary-container {
@@ -298,7 +274,7 @@ svg {
 
 @media (min-width: 814px) {
 
-/* -- header */
+  /* -- header */
 
   .header-container {
     display: flex;
@@ -316,6 +292,24 @@ svg {
 
   .header-link-container li {
     padding: 0 0 0 2.5em;
+  }
+
+    /* -- img container --*/
+
+  .img-container {
+    background-image: url(./img/background-photo.png);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+  }
+  
+  .title {
+    text-align: center;
+    padding: 5em 0;
+    color: rgba(255, 255, 255, 0.95);
+    font-family: sans-serif;
+    font-weight: 500;
   }
 
   /* -- primary -- */
