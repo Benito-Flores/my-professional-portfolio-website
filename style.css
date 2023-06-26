@@ -158,9 +158,10 @@ svg {
   /* -- img container --*/
 
   .img-container {
-    background-image: url(./../img/background-photo.png);
+    background-image: url(./img/background-photo.png);
     background-position: center;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
   }
   
