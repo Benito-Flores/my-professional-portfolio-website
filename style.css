@@ -186,6 +186,10 @@ svg {
   margin: 1em 0;
 }
 
+.article-text {
+  padding-bottom: 1em;
+}
+
 .services-title {
   text-align: center;
   margin: 2em 0 1em 0;
