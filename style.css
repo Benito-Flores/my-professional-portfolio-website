@@ -85,6 +85,14 @@ svg {
   font-weight: bold;
 }
 
+.h3-title {
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-top: -1em;
+  margin-bottom: .5em;
+  color: #1792D2;
+}
+
 .in-text-link {
   color: #1792D2;
 }
@@ -308,9 +316,17 @@ svg {
     color: white;
   }
   
+  .img-container-two {
+    background-image: url(./img/dragon.JPG);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+  }
+
   .title {
     text-align: center;
-    padding: 5em 0;
+    padding: 4em 0;
     color: rgba(255, 255, 255, 0.95);
     font-family: sans-serif;
     font-weight: 500;
