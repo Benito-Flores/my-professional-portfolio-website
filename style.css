@@ -325,7 +325,7 @@ body {
 .footer-cite-links {
   font-weight: 700;
   font-family: serif;
-  opacity: .9;
+  opacity: .8;
 }
 
 .footer-cite-links:hover,
@@ -363,10 +363,9 @@ body {
 
 .codex-footer {
   padding: 1.75em 2em;
-  border-top: 1px solid grey;
+  border-top: 1px solid rgb(128, 128, 128);
   margin-inline: auto;
   max-width: 90%;
-  opacity: .7;
 }
 
 .body-footer-links {
