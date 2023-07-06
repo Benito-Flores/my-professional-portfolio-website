@@ -61,6 +61,15 @@ body {
   font-weight: 800;
 }
 
+.text-link {
+  font-weight: 400;
+}
+
+.text-link:hover,
+.text-link:focus {
+  text-decoration: underline;
+}
+
 /* 
 ============ body header ============
 */
@@ -200,7 +209,8 @@ body {
   }
 
   .main-container-two-summary {
-    font-weight: 300
+    font-weight: 300;
+    margin-block: 1.5em;
   }
 
   /* -- main container one -- */
@@ -402,6 +412,24 @@ body {
 }
 
 /* 
+============ about page ============
+*/
+
+.about-splash-content-container {
+  background-image: url(./img/dragon.JPG);
+  background-size: cover;
+  background-position: center;
+  padding: 7em 3em;
+  background-color: #adadad;
+  background-blend-mode: multiply;
+}
+
+.about-splash-content {
+  margin-inline: auto;
+  color: white;
+}
+
+/* 
 ============ media queries ============
 */
 
@@ -472,7 +500,7 @@ body {
 
   .main-container-one {
     grid-template-columns: 1fr 1fr;
-    gap: 2em;
+    gap: 1em;
   }
 
   .success-stories-container:hover,
@@ -480,7 +508,7 @@ body {
   .faq-container:hover,
   .faq-container:focus {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.025);
   }
 
   .small-font {
