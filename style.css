@@ -173,6 +173,11 @@ body {
     opacity: .8;
   }
 
+  .splash-content-img {
+    width: 100%;
+    height: auto;
+  }
+
 /* 
 ============ main container ============
 */
@@ -431,17 +436,16 @@ body {
     flex-direction: row;
   }
 
-  .splash-content-img {
-    display: none;
-  }
-
   .splash-content-container {
     background-image: url(./img/me-three.JPG);
     background-position: center;
     background-size: cover;
-    height: 45em;
     max-width: 80em;
     margin-inline: auto;
+  }
+
+  .splash-content-img {
+    display: none;
   }
 
   .splash-content {
