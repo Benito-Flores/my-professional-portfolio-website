@@ -474,7 +474,7 @@ body {
   background-image: url(./img/contact-background.jpg);
   background-size: cover;
   background-position: center;
-  padding: 7em 3em;
+  padding: 6em 1em;
   background-color: #686868;
   background-blend-mode: multiply;
   text-align: center;
@@ -542,6 +542,7 @@ body {
   box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.1);
   transition: .5s;
   cursor: pointer;
+  color: black;
 }
 
 .form-button:hover,
@@ -658,8 +659,12 @@ body {
   .services-article {
     flex: 1;
   }
+  
+  .contact-splash-content-container {
+    padding: 7em 3em;
+  }
 
-}
+}  
 
 @media (min-width: 951px) {
   
