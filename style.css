@@ -196,7 +196,7 @@ body {
     display: block;
     background-color: #484848;
     padding: .5em 2.5em;
-    border-radius: 4px;
+    border-radius: 3px;
     font-weight: 400;
     letter-spacing: .05em;
     cursor: pointer;
@@ -469,7 +469,7 @@ body {
 .main-container-summary-content-link {
   display: block;
   color: rgba(255, 255, 255, .9);
-  padding: 1em 3.5em;
+  padding: .5em 2.5em;
   border: 1px solid rgba(255, 255, 255, .9);
   background-color: rgb(99, 99, 99);
   max-width: 15em;
@@ -589,6 +589,51 @@ body {
 }
 
 /* 
+============ faq  ============
+*/
+
+.faq-splash-content-container {
+  background-image: url(./img/faq-background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 6em 1em;
+  background-color: #686868;
+  background-blend-mode: multiply;
+  text-align: center;
+}
+
+.faq-main {
+  width: 98%;
+  max-width: 50em;
+  margin-inline: auto;
+  margin-block: 5em;
+  padding: 4em 2em 2em 2em;
+  background-color: rgba(240, 248, 255, 0.9);
+}
+
+.faq-title {
+  color: black;
+}
+
+.faq-title-h1 {
+  line-height: 1.2em;
+}
+
+.faq-text {
+  margin-bottom: 2em;
+}
+
+.faq-cta {
+  text-align: center;
+}
+
+.faq-contact {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+/* 
 ============ media queries ============
 */
 
@@ -698,6 +743,10 @@ body {
   }
   
   .contact-splash-content-container {
+    padding: 7em 3em;
+  }
+
+  .about-splash-content-container {
     padding: 7em 3em;
   }
 
