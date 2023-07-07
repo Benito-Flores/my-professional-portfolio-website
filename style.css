@@ -227,8 +227,8 @@ body {
     margin-block: 4em;
     padding: 3em 2em;
     margin-top: 3.5em;
-    background-color: #484848ca;
-    color: white;
+    background-color: rgba(240, 248, 255, 0.9);
+    color: black;
   }
 
   .main-container-two-title {
@@ -237,7 +237,7 @@ body {
   }
 
   .main-container-two-summary {
-    font-weight: 300;
+    font-weight: 400;
     margin-block: 1.5em;
   }
 
