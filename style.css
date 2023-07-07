@@ -466,6 +466,25 @@ body {
   color: #ffffffca;
 }
 
+.main-container-summary-content-link {
+  display: block;
+  color: rgba(255, 255, 255, .9);
+  padding: 1em 3.5em;
+  border: 1px solid rgba(255, 255, 255, .9);
+  background-color: rgb(99, 99, 99);
+  max-width: 15em;
+  margin-inline: auto;
+  margin-top: 2.7em;
+  border-radius: 3px;
+  transition: .5s;
+  font-weight: 500;
+}
+
+.main-container-summary-content-link:focus,
+.main-container-summary-content-link:hover {
+  background-color: rgb(99, 99, 99, .7);
+}
+
 /* 
 ============ get in touch ============
 */
