@@ -85,6 +85,12 @@ body {
   font-family: 'Roboto Slab', serif;
   font-size: 1rem;
   font-weight: 500;
+  padding: .25em .25em;
+}
+
+.form-input:focus,
+.text-area:focus {
+  outline: none;
 }
 
 /* 
