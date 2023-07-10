@@ -757,6 +757,30 @@ body {
   pointer-events: none;
 }
 
+.scoop-troop {
+  background-image: linear-gradient(135deg, #416a59 50%, #73a24e 50%);
+}
+
+.yellow-bc {
+  background-color: #f5eec2;
+}
+
+.dgreen-bc {
+  background-color: #416a59;
+}
+
+.blue-bc {
+  background-color: #39395f;
+}
+
+.green-bc {
+  background-color: #73a24e;
+}
+
+.lgreen-bc {
+  background-color: #a9c25d;
+}
+
 /* 
 ============ media queries ============
 */
